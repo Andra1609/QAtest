@@ -1,0 +1,15 @@
+1. SELECT COUNT(id) FROM city WHERE CountryCode="USA"
+2. SELECT Population, LifeExpectancy FROM country WHERE Code="ARG"
+3. SELECT LifeExpectancy FROM country WHERE LifeExpectancy IS NOT NULL ORDER BY LifeExpectancy DESC LIMIT 1
+6. SELECT * FROM city WHERE Name LIKE 'F%' LIMIT 25
+7. SELECT COUNT(Name) FROM city WHERE CountryCode="CHN"
+8. SELECT Population FROM country WHERE Population IS NOT NULL ORDER BY Population ASC LIMIT 1
+9. SELECT COUNT(Code) from country
+10. SELECT Code, Name from country ORDER BY Population DESC LIMIT 10
+11. SELECT Name FROM city WHERE CountryCode="JPN" ORDER BY Population DESC LIMIT 5
+12. SELECT Name, Code FROM country WHERE HeadOfState=”Elisabeth II”
+13. SELECT Name from country ORDER BY Population/SurfaceArea ASC LIMIT 10
+14. SELECT DISTINCT Language from countrylanguage
+15. SELECT Name from country ORDER BY GNP DESC LIMIT 10
+16. SELECT Name from country ORDER BY SurfaceArea DESC LIMIT 10
+18. SELECT Name FROM country WHERE LifeExpectancy IS NOT NULL ORDER BY LifeExpectancy ASC LIMIT 1
